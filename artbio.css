@@ -1,0 +1,108 @@
+#a1{
+	width: 74%;
+}
+
+#leyenda{
+	display: block;
+	float: left;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: auto;
+    border-radius: 30px;
+    margin-bottom: 30px;
+	margin-left: 10px;
+	margin-top: 12%;
+	margin-right: 90px;
+	text-align: left;
+	height: auto;
+	padding: 10px;
+	font-size: 15px;
+}
+
+h2{
+	color:white;
+	margin-top: 10%;
+}
+
+#bio2{
+	font-size: 15px;
+	color: white;
+	margin: auto;
+	margin-right: 10%;
+	display: flex;
+	justify-content: center;
+}
+
+#album{
+	border: solid 3px rgb(88, 81, 196);
+	border-radius: 20px;
+	padding: 13px;
+	display: flex;
+	width: 60%;
+	height: 20%;
+	box-sizing: border-box;
+}
+
+
+#almbumtext{
+	font-size: 15px;
+	color: white;
+	display: in-line flex;
+	float: left;
+	padding: 10px;
+}
+#almbumtext ol li{ list-style-type: upper-roman;
+  list-style-position: inside;}
+.a2{
+	text-align: center;
+	margin-top: 5%;
+}
+
+#artbio{
+	 float: right;
+	 background-color: white;
+	 width: 25%;
+	 border-radius: 30px;
+	 margin-bottom: 30px;
+	 margin-right: 10px;
+	 height: 50%;
+	 margin-top: 60px;
+}
+
+#artbio img{
+	align-items: center;
+	width:  83%;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#artbio p{
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#pdf{
+	color: white;
+	font-family: mi_fuente;
+	margin-top: 5%;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 15px;
+	width: 30%;
+	display: flex;
+	justify-content: center;
+}
+
+#videos{
+	display: in-line flex;
+	justify-content: space-evenly;
+	height: 10%;
+	width: auto;
+	padding: 10px;
+	box-sizing: border-box;
+	margin: auto;
+}

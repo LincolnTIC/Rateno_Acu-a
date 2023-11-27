@@ -1,0 +1,88 @@
+/** tapas de albumes en generos **/
+	
+	/** pop **/
+#ariana{
+	background-image:url(IMG/arianagrandealbum.jpg);
+	background-size:var(--width) var(--height);
+}
+
+#olivia{
+		background-image:url(IMG/oliviarodrigoalbum.jpg);
+		background-size:var(--width) var(--height);
+}
+
+#jackson{
+		background-image:url(IMG/michaeljacksonalbum.jpg);
+		background-size:var(--width) var(--height);
+}
+
+#jungkook{
+		background-image:url(IMG/jungkookalbum.jpeg);
+		background-size:var(--width) var(--height);
+}
+
+
+
+	/** pop latino **/
+#luismi{
+	background-image:url(IMG/luismiguelalbum.jpg);
+	background-size:var(--width) var(--height);
+}
+
+#miranda{
+		background-image:url(IMG/mirandaalbum.jpg);
+		background-size:var(--width) var(--height);
+}
+
+#shakira{
+		background-image:url(IMG/shakiraalbum.jpg);
+		background-size:var(--width) var(--height);
+}
+
+#bionica{
+		background-image:url(IMG/tanbionicaalbum.jpg);
+		background-size:var(--width) var(--height);
+}
+
+
+
+	/** rock **/
+#bowie{
+	background-image:url(IMG/davidbowiealbum.jpg);
+	background-size:var(--width) var(--height);
+}
+
+#queen{
+		background-image:url(IMG/queenalbum.jpg);
+		background-size:var(--width) var(--height);
+}
+
+#acdc{
+		background-image:url(IMG/acdcalbum.jpg);
+		background-size:var(--width) var(--height);
+}
+
+#maneskin{
+		background-image:url(IMG/maneskinalbum.jpg);
+		background-size:var(--width) var(--height);
+}
+
+
+
+	/** reggaeton **/
+#daddy{
+	background-image:url(IMG/daddyyankeealbum.jpg);
+	background-size:var(--width) var(--height);
+}
+#planb{
+		background-image:url(IMG/planbalbum.jpg);
+		background-size:var(--width) var(--height);
+}
+#tego{
+		background-image:url(IMG/tegocalderonalbum.jpg);
+		background-size:var(--width) var(--height);
+}
+#don{
+		background-image:url(IMG/sonomaralbum.jpg);
+		background-size:var(--width) var(--height);
+}

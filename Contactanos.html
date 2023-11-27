@@ -1,0 +1,131 @@
+<DOCTYPE! html>
+<html lang="en">
+    <!-- Estructura básica -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="estilosform.css">
+	<link async href="http://fonts.googleapis.com/css?family=Warnes" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+
+    <!-- Cabecera -->
+<header id="cabezal">
+            <div id="banner"> <h1 id="titulo" > ON AIR </h1> </div>
+    <!-- Barra de botones -->
+			<nav id="menu">
+                <ul class="botones">
+                    <li><a href="Index.html#generos">Generos</a>
+				
+						<ul> 
+							<li><a href="Pop.html"> Pop</a> </li> 
+							<li><a href="PopLatino.html"> Pop Latino</a></li> 
+							<li><a href="Rock.html"> Rock</a> </li> 
+							<li><a href="Reggaeton.html"> Reggaeton</a> </li> 
+						</ul>
+					
+					</li>	
+                    <li><a href="Novedades.html">Novedades</a></li>
+                    <li><a href="Index.html">Nosotros</a></li>
+                    <li><a href="Contactanos.html">Contactanos</a></li>
+                </ul>
+            </nav>
+</header>
+	<!-- Pagina principal -->
+
+<main id="principal">
+     
+	    <div class="container">
+        <div class="form-image">
+            <img src="IMG/form-1.jpeg">
+        </div>
+        <div class="form">
+            <form action="mailto:zo65884@gmail.com">
+                <div class="form-header">
+                    <div class="title">
+                        <h1> Registrate </h1>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primer nombre</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Ponga su primer nombre" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Apellido</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Ponga su apellido" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="ejemplo@gmail.com" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div> 
+
+                    <div class="input-box">
+                        <label for="password">Contraseña</label>
+                        <input id="password" type="password" name="password" placeholder="Contraseña" required>
+                    </div>
+
+
+                    <div class="input-box">
+                        <label for="confirmPassword">Confirmar contraseña</label>
+                        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Comfirmar contraseña" required>
+                    </div>
+
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Genero</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input id="female" type="radio" name="gender">
+                            <label for="female">Femenino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="male" type="radio" name="gender">
+                            <label for="male">Masculino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="others" type="radio" name="gender">
+                            <label for="others">Otros</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="none" type="radio" name="gender">
+                            <label for="none">Prefiero no decir</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a> </button>
+                </div>
+            </form>
+        </div>
+    </div>
+	
+</main>
+
+	<!-- pie de  página--> 
+
+<footer id="pie">
+ <p> Página hecha por Acuña y Rateno </P>
+</footer>
+
+</body>
+</html>
